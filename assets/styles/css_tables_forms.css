@@ -1,0 +1,43 @@
+table{
+  width: 50%;
+  border: 2px tomato;
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+
+tr.even{
+  background-color: lightgray;
+  color: black;
+}
+
+tr.odd{
+  background-color: darkgray;
+  color: white;
+
+}
+
+td{
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid tomato;
+}
+
+#first_name{
+  background-color: white;
+  color: tomato;
+  border: 0;
+  border: bottom 2px solid tomato; 
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  outline: 0;
+}
+
+#submit{
+  background-color: seagreen;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+}

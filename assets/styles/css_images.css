@@ -1,0 +1,18 @@
+div{
+  height: 670px;
+  width: 100%;
+}
+
+.div1{
+  background-image: url(../images/chocolate-islands.jpg);background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.div2{
+background-image: url(../images/lemon-posset.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center left;
+}

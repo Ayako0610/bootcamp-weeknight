@@ -1,0 +1,53 @@
+/* STATIC
+-default
+- coad and browser - same order
+
+RELATIVE
+- relative to original position
+- tap, right, bottom, left
+
+ABSOLUTE
+- relative to the parent
+- parent should  not be static
+FIXED
+-
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.navigation{
+  background-color: darkgreen;
+}
+.announcement{
+  background-color: darkgoldenrod;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
+.announcement h2{
+  font-size: 60px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+.main{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+
+  }
+/*  */
+  .main p {
+    font-size: 2em;
+   /*root font size
+   1em = 16px
+   2em = 32px  */
+    margin-bottom: 25px;
+  }
+
+  .main input :focus{
+      border: 5px solid red;
+  }

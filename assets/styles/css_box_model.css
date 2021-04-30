@@ -1,0 +1,42 @@
+
+*{
+  box-sizing: border-box;
+  /* content-box = includes and border on the total width/height of the element
+
+  border-box = locks the hight
+}
+/* Margin Values
+  1-value margin = appline the value to all the side
+
+
+
+
+
+
+
+
+
+
+
+margin-top VA
+*/
+
+
+
+div{
+height: 200px;
+width: 200px;}
+p{
+  color: white;
+}
+.div1{
+background-color: teal;
+margin: 50px;
+}
+
+
+
+.div2{
+  background-color: goldenrod;
+  padding: 50px;
+}
